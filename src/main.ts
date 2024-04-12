@@ -50,7 +50,7 @@ const listRepos = async (dirpath: string) => {
   return (await Promise.all(repoFoldersPromises)).flat();
 };
 
-export const cli = CLI.create("Manage a small-scale poly-repo sync", {
+export const cli: CLI.CLI = CLI.create("Manage a small-scale poly-repo sync", {
   version: CLI.command({
     description: "Updates the version across the poly-repo",
     arguments: [["versioning"]],
