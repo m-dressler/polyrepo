@@ -1,7 +1,7 @@
 {
   "name": "@md/polyrepo",
   "version": "0.0.0",
-  "exports": "./main.ts",
+  "exports": "./src/main.ts",
   "tasks": {
     "dev": "deno test --allow-read --allow-write"
   },
