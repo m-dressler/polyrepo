@@ -11,7 +11,7 @@
     "@std/fs": "jsr:@std/fs@^0.220.1"
   },
   "publish": {
-    "include": ["README.md", "src/**/*.ts"],
+    "include": ["README.md", "src/**/*.ts", "deno.json"],
     "exclude": ["src/**/*_test.ts"]
   }
 }
