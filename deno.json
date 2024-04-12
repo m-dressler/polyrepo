@@ -1,0 +1,15 @@
+{
+  "name": "@md/polyrepo",
+  "version": "0.0.0",
+  "tasks": {
+    "dev": "deno test --allow-read --allow-write"
+  },
+  "imports": {
+    "@md/cli": "jsr:@md/cli@^0.0.0",
+    "@std/dotenv": "jsr:@std/dotenv@^0.220.1",
+    "@std/fs": "jsr:@std/fs@^0.220.1"
+  },
+  "publish": {
+    "include": ["README.md", "src/**/*.ts"]
+  }
+}

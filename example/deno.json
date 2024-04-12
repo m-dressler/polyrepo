@@ -1,0 +1,7 @@
+{
+  "name": "@example/root",
+  "version": "3.1.1",
+  "tasks": {
+    "version": "deno run --allow-read=. --allow-write=. ../src/main.ts version"
+  }
+}
